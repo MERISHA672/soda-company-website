@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kampala Fizz | Refresh Your Moment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span>KF</span>
+                Kampala Fizz
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="order-btn" onclick="orderNow()">Order Now</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <p class="tagline">MADE FOR KAMPALA</p>
+
+            <h1>
+                Refresh Your
+                <span>Moment.</span>
+            </h1>
+
+            <p>
+                Discover Kampala Fizz — a proudly Ugandan soda brand
+                created to bring great taste, energy and refreshment
+                to every moment.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#products" class="primary-btn">Explore Flavours</a>
+                <a href="#about" class="secondary-btn">Our Story</a>
+            </div>
+        </div>
+
+        <div class="hero-bottle">
+            <div class="bottle">
+                <div class="bottle-cap"></div>
+                <div class="bottle-label">
+                    <strong>KF</strong>
+                    <small>KAMPALA</small>
+                    <b>FIZZ</b>
+                    <em>Since 2026</em>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Products -->
+    <section class="products" id="products">
+
+        <div class="section-heading">
+            <p>OUR FLAVOURS</p>
+            <h2>Something for Everyone</h2>
+            <span>
+                Carefully crafted flavours for every mood and every occasion.
+            </span>
+        </div>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+                <div class="product-icon">🍊</div>
+                <h3>Orange Rush</h3>
+                <p>
+                    A bright and refreshing orange flavour
+                    with a delicious citrus finish.
+                </p>
+                <strong>500ml</strong>
+            </div>
+
+            <div class="product-card featured">
+                <div class="popular">POPULAR</div>
+                <div class="product-icon">🍍</div>
+                <h3>Tropical Pine</h3>
+                <p>
+                    A tropical combination inspired by
+                    Uganda's love for fresh fruit flavours.
+                </p>
+                <strong>500ml</strong>
+            </div>
+
+            <div class="product-card">
+                <div class="product-icon">🥤</div>
+                <h3>Cola Classic</h3>
+                <p>
+                    A bold classic taste made for people
+                    who love a timeless refreshment.
+                </p>
+                <strong>500ml</strong>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+
+        <div class="about-image">
+            <div class="circle">
+                KF
+            </div>
+        </div>
+
+        <div class="about-content">
+            <p class="small-title">OUR STORY</p>
+
+            <h2>
+                Born in Kampala.
+                <br>
+                Made for Everyone.
+            </h2>
+
+            <p>
+                Kampala Fizz is a fictional Ugandan soda company
+                built around one simple idea: great refreshment
+                should be accessible to everyone.
+            </p>
+
+            <p>
+                From busy Kampala streets to family gatherings,
+                celebrations and everyday moments, we create
+                flavours that bring people together.
+            </p>
+
+            <div class="stats">
+                <div>
+                    <strong>3+</strong>
+                    <span>Flavours</span>
+                </div>
+
+                <div>
+                    <strong>100%</strong>
+                    <span>Ugandan Inspired</span>
+                </div>
+
+                <div>
+                    <strong>2026</strong>
+                    <span>Founded</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+
+        <div>
+            <p>READY FOR A REFRESHMENT?</p>
+            <h2>Make every moment fizz.</h2>
+        </div>
+
+        <button onclick="orderNow()">Place an Order</button>
+
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+
+        <div class="section-heading">
+            <p>GET IN TOUCH</p>
+            <h2>Let's Connect</h2>
+        </div>
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea
+                id="message"
+                placeholder="How can we help you?"
+                required
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-logo">
+            KF — Kampala Fizz
+        </div>
+
+        <p>
+            Proudly inspired by Kampala, Uganda.
+        </p>
+
+        <div class="socials">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">WhatsApp</a>
+        </div>
+
+        <small>
+            © 2026 Kampala Fizz. All rights reserved.
+        </small>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
